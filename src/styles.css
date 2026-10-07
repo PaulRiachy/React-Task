@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f3f4f6;
+color: #222;
+}
+
+/* Registration */
+
+.page-container {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+
+.registration-card {
+width: 100%;
+max-width: 450px;
+background: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-logo {
+display: block;
+width: 80px;
+height: 80px;
+margin: 0 auto 15px;
+}
+
+.registration-card h1 {
+text-align: center;
+margin-bottom: 25px;
+}
+
+/* Textbox */
+
+.input-group {
+margin-bottom: 18px;
+}
+
+.input-group label {
+display: block;
+margin-bottom: 7px;
+font-weight: bold;
+}
+
+.input-group input {
+width: 100%;
+padding: 11px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 15px;
+}
+
+.input-group input:focus {
+outline: none;
+border-color: #555;
+}
+
+.password-wrapper {
+position: relative;
+}
+
+.password-wrapper input {
+padding-right: 45px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+.password-toggle:hover {
+  color: #222;
+}
+
+/* Buttons */
+
+.ap-button {
+border: none;
+background: #222;
+color: white;
+padding: 11px 22px;
+border-radius: 6px;
+font-size: 15px;
+cursor: pointer;
+}
+
+.ap-button:hover {
+opacity: 0.85;
+}
+
+form .ap-button {
+width: 100%;
+margin-top: 5px;
+}
+
+.secondary-button {
+background: #777;
+}
+
+/* Paragraph */
+
+.ap-paragraph {
+line-height: 1.5;
+margin: 10px 0;
+}
+
+/* Alert */
+
+.alert-overlay {
+position: fixed;
+inset: 0;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+z-index: 1000;
+}
+
+.alert-box {
+width: 100%;
+max-width: 380px;
+background: white;
+padding: 30px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.alert-logo {
+width: 70px;
+height: 70px;
+margin-bottom: 15px;
+}
+
+.alert-buttons {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+height: 65px;
+padding: 0 25px;
+background: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+display: flex;
+align-items: center;
+gap: 10px;
+font-weight: bold;
+}
+
+.navbar-logo img {
+width: 40px;
+height: 40px;
+}
+
+/* Home */
+
+.home-page {
+min-height: 100vh;
+}
+
+.home-content {
+text-align: center;
+padding: 80px 20px;
+}
